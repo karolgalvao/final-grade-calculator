@@ -1,0 +1,43 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 65vh;
+    background-image:url('https://cdn-icons-png.flaticon.com/512/1048/1048913.png');
+    background-color: black;
+    background-size: 50vh;
+    background-position: center bottom;
+    background-repeat: no-repeat; 
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+    height: 60vh;
+}
+
+.page-title{
+    color: blanchedalmond;
+    margin: 0 0 5px;
+}
+
+.page-subtitle{
+    color: blanchedalmond;
+    margin-top: 10px;
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: solid;
+    font-style: italic;    
+}
+
+button{
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+    color:black;
+    background:palevioletred ;
+}
+
