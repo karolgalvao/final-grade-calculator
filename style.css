@@ -10,7 +10,7 @@ body{
 
 .container{
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     height: 60vh;
 }
 
@@ -26,7 +26,8 @@ body{
 
 input{
     padding: 5px;
-    margin: 5px;
+    margin: 0px;
+    height: 20px;
     border-radius: 10px;
     text-align: center;
     text-decoration: solid;
@@ -34,10 +35,21 @@ input{
 }
 
 button{
-    margin: 10px;
+    height: 50px;
     border-radius: 20px;
     font-weight: bolder;
     color:black;
-    background:palevioletred ;
+    background: rgb(238, 6, 238);
 }
 
+.input{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    color: blanchedalmond;
+    text-align: center;
+    padding: 10px;
+}
